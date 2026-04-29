@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(56, 120, 173);
+    color: rgb(170, 188, 205);
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+p{
+    font-size: 25px;
+    color: rgb(72, 54, 120);
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(210, 208, 208);
+    background-color: rgb(20, 34, 49);
+}
+button:hover{
+    background-color: rgb(53, 75, 92);
+    color: rgb(210, 208, 208);
+}
