@@ -15,7 +15,18 @@ h1{
     color: rgb(92, 79, 79);
     text-align: center;
     font-size: 45px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     font-weight: bold;
+    flex-direction: column;
+    gap: 10px;
+}
+p{
+    color: rgb(92, 79, 79);
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 8px;
 }
 
