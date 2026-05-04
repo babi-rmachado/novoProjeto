@@ -29,5 +29,16 @@ p{
     margin-bottom: 8px;
 }
 img{
-    
+    background-color: rgb(178, 220, 210);
+    width: 120px;
+    padding: 20px;
+}
+button{
+    cursor: pointer;
+    border-radius: 5px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
