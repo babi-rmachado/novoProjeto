@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 17</title>
+    <link rel="stylesheet" href="../css/exercicio17.css">
+</head>
+<body>
+    <h1>Exercício 17</h1>
+
+    <label for="">Digite seu nome: </label>
+    <input type="text" id="nome">
+
+    <label for="">Digite sua idade: </label>
+    <input type="text" id="idade">
+
+    <button onclick="mostrar()">Mostrar</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        const sistema = "Academia Boa Forma";
+
+        function mostrar(){
+            let nome = document.getElementById("nome").value
+            let idade = document.getElementById("idade").value
+            document.getElementById("resultado").innerHTML = "Bem-vindo(a), " + nome + ", a " + sistema + ". Sua idade é: " +idade;
+        }
+    </script>
+</body>
+</html>
