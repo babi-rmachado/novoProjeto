@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 16</title>
+    <link rel="stylesheet" href="../css/exercicio16.css">
+</head>
+<body>
+    <h1>Exercício 16</h1>
+    <p>Digite os números para somar: </p>
+
+    <input type="text" id="numero1" placeholder="Digite o número">
+    <input type="text" id="numero2" placeholder="Digite o número">
+
+    <button onclick="somar()">Somar</button>
+
+    <p id="resultado"></p>
+
+    <script>
+        function somar(){
+            let numero1 = Number(document.getElementById("numero1").value);//O parseFloat(para números com casa decimais) e o ParseInt(para números inteiros) "converte" o número para que o sistema aceite 
+            let numero2 = Number(document.getElementById("numero2").value);//O Number faz a mesma coisa que os outros dois, mas pode ser usado tanto para números com casas decimais como para números inteiros
+
+            let total = numero1 + numero2;
+
+            document.getElementById("resultado").innerHTML = "O resultado da soma é: " + total;
+
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(255, 249, 214);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: rgb(139, 103, 103);
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+input{
+    background-color: rgb(190, 211, 251);
+    font-size: medium;
+    width: 500px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: block;/*Usa toda a linha*/
+}
+button{
+    background-color: rgb(246, 228, 206);
+    padding: 2px;
+    width: 80px;
+}
